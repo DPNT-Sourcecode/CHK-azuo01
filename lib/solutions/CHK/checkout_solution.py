@@ -15,4 +15,4 @@ def checkout(skus):
     d_count = skus.count('D')
 
     if b_count >= 2:
-        
+        q, mod = b_count // 2, b_count % 2
