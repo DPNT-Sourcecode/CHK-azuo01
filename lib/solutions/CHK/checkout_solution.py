@@ -4,12 +4,16 @@
 # skus = unicode string
 def checkout(skus):
 
+    skus = skus.upper()
+
     a, b, c, d = 50, 30, 20, 15
 
     a_count = skus.count('A')
     b_count = skus.count('B')
     c_count = skus.count('C')
     d_count = skus.count('D')
+
+    if 
 
     if b_count >= 2:
         q, mod = b_count // 2, b_count % 2
@@ -25,5 +29,6 @@ def checkout(skus):
     
     return a_sum + b_sum + (c * c_count) + (d * d_count)
     
+
 
 
