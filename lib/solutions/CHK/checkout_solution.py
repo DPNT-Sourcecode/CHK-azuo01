@@ -22,7 +22,10 @@ def checkout(skus):
         if mod < 3:
             a_sum = (q * 200) + (a * mod)
         elif mod == 3:
-            a_sum = (q * 200) + (a * mod)
+            a_sum = (q * 200) + 130 
+        else:
+            a_sum = (q * 200) + 180
+    
 
 
     if a_count >= 3:
