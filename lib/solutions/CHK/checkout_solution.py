@@ -16,3 +16,6 @@ def checkout(skus):
 
     if b_count >= 2:
         q, mod = b_count // 2, b_count % 2
+        b_total = (q * 45) + (b * mod)
+    elif:
+    
