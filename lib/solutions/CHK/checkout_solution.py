@@ -16,6 +16,11 @@ def checkout(skus):
         if i not in ['A', 'B', 'C', 'D', 'E']:
             return -1
         
+
+    if a_count % 5 == 0:
+        
+
+
     if a_count >= 3:
         q, mod = a_count // 3, a_count % 3
         a_sum = (q * 130) + (a * mod)
@@ -32,6 +37,7 @@ def checkout(skus):
         return a_sum + b_sum + (c * c_count) + (d * d_count)
     else:
         return 0
+
 
 
 
