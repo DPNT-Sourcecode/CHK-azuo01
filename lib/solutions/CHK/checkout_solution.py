@@ -14,4 +14,5 @@ def checkout(skus):
     c_count = skus.count('C')
     d_count = skus.count('D')
 
-    
+    if b_count >= 2:
+        
