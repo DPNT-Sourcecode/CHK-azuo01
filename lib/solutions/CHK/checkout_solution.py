@@ -6,7 +6,7 @@ def checkout(skus):
 
     skus = skus.upper()
 
-    a, b, c, d = 50, 30, 20, 15
+    a, b, c, d = 80, 30, 50, 45
 
     a_count = skus.count('A')
     b_count = skus.count('B')
@@ -25,12 +25,13 @@ def checkout(skus):
     
     if a_count >= 3:
         q, mod = a_count // 3, a_count % 3
-        a_sum = (q * 130) + (a * mod)
+        a_sum = (q * 160) + (a * mod)
     else:
         a_sum = a * a_count
     
     return a_sum + b_sum + (c * c_count) + (d * d_count)
     
+
 
 
 
