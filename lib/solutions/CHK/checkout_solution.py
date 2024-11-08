@@ -19,7 +19,10 @@ def checkout(skus):
 
     if a_count >= 5:
         q, mod = a_count // 5, a_count % 5
-        if mod 
+        if mod < 3:
+            a_sum = (q * 200) + (a * mod)
+        elif mod == 3:
+            a_sum = (q * 200) + (a * mod)
 
 
     if a_count >= 3:
@@ -38,8 +41,3 @@ def checkout(skus):
         return a_sum + b_sum + (c * c_count) + (d * d_count)
     else:
         return 0
-
-
-
-
-
