@@ -13,7 +13,8 @@ def checkout(skus):
     c_count = skus.count('C')
     d_count = skus.count('D')
 
-    if 
+    if any 
+        return -1
 
     if b_count >= 2:
         q, mod = b_count // 2, b_count % 2
@@ -29,6 +30,7 @@ def checkout(skus):
     
     return a_sum + b_sum + (c * c_count) + (d * d_count)
     
+
 
 
 
