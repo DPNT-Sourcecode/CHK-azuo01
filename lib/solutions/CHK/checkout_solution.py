@@ -41,8 +41,10 @@ def checkout(skus):
         q, mod = e_count // 2, e_count % 2
         # if b_count >= 1 
         # if q <= b_count:
-        if b_count >= 1:
+        if b_count >= 1 and q <= b_count:
             b_sum -= q * 30
+        else:
+            b_sum = 0
 
     if skus:
         return a_sum + b_sum + (c * c_count) + (d * d_count)
