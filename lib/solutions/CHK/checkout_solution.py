@@ -47,7 +47,7 @@ def checkout(skus):
             b_sum = 0
 
     if skus:
-        return a_sum + b_sum + (c * c_count) + (d * d_count)
+        return a_sum + b_sum + (c * c_count) + (d * d_count) + (e * e_count)
     else:
         return 0
 
